@@ -1,1 +1,1 @@
-body{margin:0;padding:0;font-family:sans-serif;color:#333;background:#fefefe}
+body{margin:0;padding:0;font-family:sans-serif;font-size:14px;color:#333;background:#fefefe;display:flex;min-height:100vh}.link-list{min-width:250px;resize:horizontal;height:100%;overflow-y:scroll;overflow-x:auto;float:left;background:#333;height:100vh}.link-list .link-item{padding:1.5em;border-top:1px solid #666;border-bottom:1px solid #000}.link-list .link-item a{color:#fefefe;text-decoration:none;font-size:1.2em}.link-list .link-item a:hover{text-decoration:underline}

@@ -1,2 +1,4 @@
 bower_components/
 dev_server.sh
+build/
+css/

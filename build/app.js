@@ -23,14 +23,39 @@ var LinkList = React.createClass({displayName: "LinkList",
 var LinkItem = React.createClass({displayName: "LinkItem",
     render: function() {
         return (
-            React.createElement("p", {className: "link-item"}, 
-                React.createElement("a", {href: this.props.url}, this.props.title)
+            React.createElement("div", {className: "link-item"}, 
+                React.createElement("a", {href: this.props.url, target: "_blank"}, this.props.title)
             )
         );
     }
 });
 
 var LINKS = [
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
+    {title: 'Something', url: '#'},
     {title: 'Something', url: '#'},
     {title: 'Something', url: '#'},
     {title: 'Something', url: '#'},
