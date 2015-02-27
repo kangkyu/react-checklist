@@ -38,7 +38,7 @@ var Checklist = React.createClass({
 var NewItemForm = React.createClass({
     handleSubmit: function(e) {
         e.preventDefault();
-        var input_node = this.refs.item_text.getDOMNode();
+        var input_node = this.refs.item_text;
         console.log(input_node.value);
         if (input_node.value) {
             this.props.onItemSubmit(input_node.value);
