@@ -1,9 +1,8 @@
 #React Checklist
 A checklist application made with [React](https://github.com/facebook/react) and [Alt](https://github.com/goatslacker/alt) (a helpful tool for using Flux).
 
-To check it out first install the dependencies (you'll need node and bower installed):
+To check it out first install the bower dependencies:
 ```
-npm install
 bower install
 ```
 
