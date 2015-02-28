@@ -1,7 +1,15 @@
 #React Checklist
+A checklist application made with [React](https://github.com/facebook/react) and [Alt](https://github.com/goatslacker/alt) (a helpful tool for using Flux).
 
-A checklist application made with React.
+To check it out first install the dependencies (you'll need node and bower installed):
+```
+npm install
+bower install
+```
 
-v1 is the version I showed at the LA Web App Builders Meetup on 2/26
+Then start a local server:
+```
+python -m SimpleHTTPServer
+```
 
-v2 is functionally the same but I used ReactLink (`React.addons.LinkedStateMixin`) to simplify updating the state.
+Go to [http://localhost:8000](http://localhost:8000)
