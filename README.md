@@ -12,3 +12,8 @@ python -m SimpleHTTPServer
 ```
 
 Go to [http://localhost:8000](http://localhost:8000)
+
+
+
+https://github.com/baclap/react-checklist
+https://groups.google.com/forum/#!topic/webappbuilders/gOEm19ZnNNE
